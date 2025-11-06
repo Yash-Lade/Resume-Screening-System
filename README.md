@@ -56,17 +56,6 @@ Model training/inference – a classification model stored under models/ is used
 
 Front-end interface – user uploads a resume file, the back-end runs extraction + model + displays result and key feedback.
 
-📁 Repository Structure
-/
-│  app.py                  ← main application script
-│  app2.py                 ← alternate version / prototype
-│  requirements.txt        ← Python dependencies
-│  UpdatedResumeDataSet.csv← labeled training dataset
-│
-├── data/                  ← (optional) raw or processed data files
-├── models/                ← serialized ML model(s) + feature extraction artifacts
-├── uploads/               ← folder where uploaded resumes are stored (for demo)
-└── .vscode/               ← workspace settings (editor config)
 
 🎯 Why This Project?
 
